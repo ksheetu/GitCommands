@@ -1,0 +1,57 @@
+1.Create account on
+https://github.com/
+
+2.Create a new repository in git hub
+
+3.Create a Folder in your machine and add the files in it that needs to be Uploaded 
+to Github
+
+4.Go to command prompt
+
+5.Move to Git folder you created from cmd
+
+6.Enter below commd
+ git init    -- initialise as Git repository
+
+7.To push the Files/code to Github 
+	7.1 Move the files to stash by using below commad
+		git add *     -- * means all files
+		git add filename.txt      ---specific file
+
+8.Enter below command in cmd
+	git status    -- see the files added to staging
+
+9.Enter below command in cmd
+	git commit -m "first Commit"      --to commit the code and give the name to commit
+
+
+10.
+  git remote add origin https://github.com/SheetalRS/Test.git
+
+11.
+ git push origin master
+
+12.git clone https://github.com/ksheetu/Detect.git     ---To clone the data from repository
+   this is used when you are taking the whole code from git hub first time.
+
+13.git pull origin master  --to take the changed code(latest updated code) from the Git Hub
+
+14.git checkout -b develope     --- to create new brach
+
+15.git checkout develope       --- to move to already created Branch
+
+16. git branch    -- will show the current brach you are in
+
+17. git branch -d branchname   -- to delete branch
+
+18. To merge the branch in master
+
+19. git pull origin develope 
+
+git checkout master
+git merge develope      
+ 
+
+
+
+
